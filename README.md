@@ -4,7 +4,9 @@ Open this folder in Visual Studio Code to easily work with all the documents.
 
 ## Getting Updates
 
-It is a good idea to check for updates before you start working!
+It is a good idea to check for updates before you start working! Use
+`git pull` and `git log` to check for new commits, so you can see
+if there were any clarifications or corrections.
 
 ## Working with markdown
 
@@ -16,7 +18,7 @@ You can view the source code of the markdown file by opening the file. By select
 
 ### Open preview by default
 
-Since you'll be reading markdown files instead of writing them most of the time it might be useful to change the default behaviour to preview mode.
+Since you'll be reading markdown files instead of writing them most of the time it might be useful to change the default behavior to preview mode.
 
 Go to Settings -> Workbench -> Editor Associations. Select "Add Item" and add the value `vscode.markdown.preview.editor` for item `*.md`. 
 
